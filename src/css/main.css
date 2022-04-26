@@ -5,3 +5,44 @@ video {
   width: 100%;
   height: auto;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 6%;
+  color: blueviolet;
+}
+
+.card1 {
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.102);
+}
+
+.card2 {
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.102);
+}
+
+.card3 {
+  max-width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.102);
+}
+
+.grid {
+  margin-top: 5rem;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(4, 280px);
+  grid-auto-rows: 290px;
+}
