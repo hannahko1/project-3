@@ -55,7 +55,7 @@ h3 {
 nav {
   display: flex;
   background-color: rgb(88, 24, 131);
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 55px;
@@ -82,15 +82,11 @@ nav {
   display: flex;
   color: rgb(219, 219, 219);
   display: inline-block;
-  padding-right: 1150px;
   text-decoration: underline;
   text-decoration-line: underline;
 }
 
 .intro {
-  justify-content: ;
-  align-items: center;
-  display: flex;
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;

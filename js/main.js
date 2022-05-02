@@ -18,7 +18,11 @@ function addDetailCardToLightbox() {
   const item = items.find((i) => i.id === id);
   console.log(item.brand);
   var div = document.createElement("div");
-  div.innerText = item.brand;
+  div.innerHTML = `
+                <h1>${item.name}</h1>
+                <h2>${item.product_type}</h2>
+                <img src=${item.image_link}>
+                `;
   div.className = "card";
   lightbox.appendChild(div);
   lightbox.style.display = "flex";
