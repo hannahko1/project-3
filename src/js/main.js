@@ -1,3 +1,6 @@
+const base = window.location.href.includes("github.io")
+  ? `/${window.location.pathname.split("/")[1]}`
+  : "";
 var ul = document.querySelector("ul");
 var items = [];
 const lightbox = document.createElement("div");
@@ -11,8 +14,8 @@ document.body.appendChild(lightbox);
 
 function addDetailCardToLightbox() {
   lightbox.innerHTML = "";
-  const i = parseInt(this.dataset.index);
-  const item = items[i];
+  const id = parseInt(this.dataset.id);
+  const item = items.find((i) => i.id === id);
   console.log(item.brand);
   var div = document.createElement("div");
   div.innerText = item.brand;
@@ -22,11 +25,12 @@ function addDetailCardToLightbox() {
 }
 
 // Exterior Card //
-fetch("/api/products.json")
+fetch(`${base}/api/products.json`)
   .then((response) => response.json())
   .then((data) => {
     items = data;
     items
+
       .filter((item) => item.description)
       .sort((a, b) => {
         if (b.product_type.toLowerCase() > a.product_type.toLowerCase()) {
@@ -42,7 +46,7 @@ fetch("/api/products.json")
         var li = document.createElement("li");
         var image = new Image();
         li.addEventListener("click", addDetailCardToLightbox);
-        li.dataset.index = index;
+        li.dataset.id = item.id;
         li.innerHTML = `
                 <h1>${item.name}</h1>
                 <h2>${item.product_type}</h2>
