@@ -15,8 +15,9 @@
 
 .container {
   max-width: 80rem;
-  margin: 2rem auto;
+  margin: 3rem;
   padding: 2rem;
+  
 }
 
 li {
@@ -29,9 +30,11 @@ li {
 }
 
 h1 {
-  font-size: 20pt;
+  font-size: 18pt;
   font-family: bahnschrift;
   line-height: 1;
+  margin-top: .5rem;
+  margin-left: .4rem;
 }
 
 h2 {
@@ -41,6 +44,7 @@ h2 {
   text-transform: uppercase;
   font-weight: lighter;
   line-height: 1.8;
+  margin-left: .4rem;
 }
 
 h3 {
@@ -84,7 +88,7 @@ nav {
 }
 
 .intro {
-  justify-content:;
+  justify-content: ;
   align-items: center;
   display: flex;
   padding-top: 100px;
@@ -99,7 +103,7 @@ nav {
   background-color: white;
   border-radius: 1.2rem;
   width: 100%;
-  height: 40rem;
+  height: 33rem;
   padding: 1rem;
   box-shadow: 0 0 0.2rem 0 rgba(88, 88, 88, 0.349);
 }
