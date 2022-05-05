@@ -80,11 +80,11 @@ nav {
 h6 {
   font-size: 20pt;
   font-family: bahnschrift;
-  margin-left: 32rem;
+  margin-left: 31rem;
   margin-bottom: 1rem;
 }
 
-.intro {
+.st .intro {
   padding-top: 100px;
   padding-left: 170px;
   padding-right: 170px;
@@ -169,15 +169,22 @@ img:hover {
 @media (max-width: 47.9375em) {
   .grid {
     grid-template-columns: 1fr;
+    margin-top: 0rem;
+  }
+
+  img {
+    max-width: 150px;
+    max-height: 150px;
+    min-height: 50px auto;
   }
 
   p {
     display: flex;
     margin-left: 0rem;
-    margin-bottom: none;
+    margin-bottom: 0rem;
     justify-content: left;
     width: 100%;
-    font-size: 14pt;
+    font-size: 12pt;
     padding-left: 0rem;
   }
 
@@ -185,7 +192,7 @@ img:hover {
     text-align: left;
     display: flex;
     margin-left: 0rem;
-    margin-top: 0rem;
+    margin-top: 7rem;
     padding: 0%;
     width: 200px;
   }
@@ -193,5 +200,16 @@ img:hover {
   .intro {
     padding-left: 2rem;
     padding-right: 1rem;
+  }
+
+  .card {
+    display: block;
+    max-width: 35rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 0 0 0.2rem 0 rgba(88, 88, 88, 0.349);
   }
 }
