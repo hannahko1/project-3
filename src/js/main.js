@@ -63,13 +63,6 @@ fetch(`${base}/api/products.json`)
       });
   });
 
-//   <p>${item.description}</p>
-
-{
-  /* <ul>
+/* <ul>
   ${item.tag_list.map((tag) => `<li>${tag}</li>`).join("")}
 </ul> */
-}
-
-// ${item.tag_list.map((tag) => `<li>${tag}</li>`).join("")}
-// </ul>
