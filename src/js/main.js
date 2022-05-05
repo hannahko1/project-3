@@ -20,7 +20,7 @@ function addDetailCardToLightbox() {
   var div = document.createElement("div");
   div.innerHTML = `
                 <h3>${item.brand}</h3>
-                <img src=${item.image_link} width="260" height="260">
+                <a href="${item.website_link}"><img src=${item.image_link} width="260" height="260"></a>
                 <h4>${item.name}</h4>
                 <h5>${item.product_type}</h5>
                 <p>${item.description}</p>
