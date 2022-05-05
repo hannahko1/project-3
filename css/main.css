@@ -80,14 +80,14 @@ nav {
 h6 {
   font-size: 20pt;
   font-family: bahnschrift;
-  margin-left: 30rem;
+  margin-left: 27rem;
   margin-bottom: 1rem;
 }
 
 .intro {
   padding-top: 100px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 /* Lightbox card */
@@ -138,8 +138,6 @@ h5 {
 p {
   font-family: bahnschrift;
   font-size: 12pt;
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 img {
