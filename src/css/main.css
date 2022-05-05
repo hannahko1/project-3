@@ -84,7 +84,7 @@ h6 {
   margin-bottom: 1rem;
 }
 
-.st .intro {
+.intro {
   padding-top: 100px;
   padding-left: 170px;
   padding-right: 170px;
@@ -200,6 +200,8 @@ img:hover {
   .intro {
     padding-left: 2rem;
     padding-right: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 
   .card {
