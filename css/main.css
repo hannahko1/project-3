@@ -164,3 +164,10 @@ img:hover {
   justify-content: center;
   display: block;
 }
+
+/* Mobile version */
+@media (max-width: 47.9375em) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
