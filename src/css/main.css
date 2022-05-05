@@ -16,8 +16,7 @@
 .container {
   max-width: 80rem;
   margin: 3rem;
-  padding: 2rem;
-  
+  padding: 2rem;  
 }
 
 li {
@@ -58,16 +57,20 @@ h4 {
   line-height: 1;
   margin-top: .1rem;
   margin-left: .4rem;
+  display: inline-block;
+  position: relative;
 }
 
 h5 {
-  font-size: 12pt;
+  font-size: 13pt;
   font-family: bahnschrift;
   font-weight: 500px;
   text-transform: uppercase;
   font-weight: lighter;
   line-height: .5rem;
   margin-left: .4rem;
+  display: inline-block;
+  position: relative;
 }
 
 nav {
@@ -122,10 +125,6 @@ nav {
   box-shadow: 0 0 0.2rem 0 rgba(88, 88, 88, 0.349);
 }
 
-.lightboximg {
-  height: 50px;
-}
-
 h3 {
   font-size: 20pt;
   font-family: bahnschrift;
@@ -134,6 +133,11 @@ h3 {
   font-weight: bolder;
   line-height: 1.8;
   margin-left: .4rem;
+}
+
+p {
+  font-family: bahnschrift;
+  font-size: 11pt;
 }
 
 #lightbox {
