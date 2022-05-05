@@ -19,9 +19,16 @@ function addDetailCardToLightbox() {
   console.log(item.brand);
   var div = document.createElement("div");
   div.innerHTML = `
-                <h1>${item.name}</h1>
-                <h2>${item.product_type}</h2>
-                <img src=${item.image_link}>
+                <h3>${item.brand}</h3>
+                <div class="lightboximg">
+                  <img src=${item.image_link}>
+                </div>
+                <h4>${item.name}</h4>
+                <h5>${item.product_type}</h5>
+                <p>${item.description}</p>
+                <ul>
+  ${item.tag_list.map((tag) => `<li>${tag}</li>`).join("")}
+</ul>
                 `;
   div.className = "card";
   lightbox.appendChild(div);
