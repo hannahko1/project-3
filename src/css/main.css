@@ -137,7 +137,7 @@ h5 {
 
 p {
   font-family: bahnschrift;
-  font-size: 11pt;
+  font-size: 12pt;
 }
 
 img {
@@ -169,5 +169,29 @@ img:hover {
 @media (max-width: 47.9375em) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  p {
+    display: flex;
+    margin-left: 0rem;
+    margin-bottom: none;
+    justify-content: left;
+    width: 100%;
+    font-size: 14pt;
+    padding-left: 0rem;
+  }
+
+  h6 {
+    text-align: left;
+    display: flex;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    padding: 0%;
+    width: 200px;
+  }
+
+  .intro {
+    padding-left: 2rem;
+    padding-right: 1rem;
   }
 }
