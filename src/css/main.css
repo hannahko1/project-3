@@ -52,6 +52,24 @@ h3 {
   font-family: bahnschrift;
 }
 
+h4 {
+  font-size: 14pt;
+  font-family: bahnschrift;
+  line-height: 1;
+  margin-top: .1rem;
+  margin-left: .4rem;
+}
+
+h5 {
+  font-size: 12pt;
+  font-family: bahnschrift;
+  font-weight: 500px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  line-height: .5rem;
+  margin-left: .4rem;
+}
+
 nav {
   display: flex;
   background-color: rgb(88, 24, 131);
@@ -102,6 +120,20 @@ nav {
   height: 33rem;
   padding: 1rem;
   box-shadow: 0 0 0.2rem 0 rgba(88, 88, 88, 0.349);
+}
+
+.lightboximg {
+  height: 50px;
+}
+
+h3 {
+  font-size: 20pt;
+  font-family: bahnschrift;
+  font-weight: 500px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 1.8;
+  margin-left: .4rem;
 }
 
 #lightbox {
