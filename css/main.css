@@ -80,7 +80,7 @@ nav {
 h6 {
   font-size: 20pt;
   font-family: bahnschrift;
-  margin-left: 27rem;
+  margin-left: 30rem;
   margin-bottom: 1rem;
 }
 
@@ -138,6 +138,8 @@ h5 {
 p {
   font-family: bahnschrift;
   font-size: 12pt;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 img {
