@@ -20,15 +20,11 @@ function addDetailCardToLightbox() {
   var div = document.createElement("div");
   div.innerHTML = `
                 <h3>${item.brand}</h3>
-                <div class="lightboximg">
-                  <img src=${item.image_link}>
-                </div>
+                <img src=${item.image_link} width="260" height="260">
                 <h4>${item.name}</h4>
                 <h5>${item.product_type}</h5>
                 <p>${item.description}</p>
                 <ul>
-  ${item.tag_list.map((tag) => `<li>${tag}</li>`).join("")}
-</ul>
                 `;
   div.className = "card";
   lightbox.appendChild(div);
@@ -74,3 +70,6 @@ fetch(`${base}/api/products.json`)
   ${item.tag_list.map((tag) => `<li>${tag}</li>`).join("")}
 </ul> */
 }
+
+// ${item.tag_list.map((tag) => `<li>${tag}</li>`).join("")}
+// </ul>
