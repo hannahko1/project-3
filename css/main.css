@@ -77,10 +77,16 @@ nav {
   display: inline-block;
 }
 
+h6 {
+  font-size: 20pt;
+  font-family: bahnschrift;
+  margin-left: 27rem;
+  margin-bottom: 1rem;
+}
 .intro {
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /* Lightbox card */
