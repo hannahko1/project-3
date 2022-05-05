@@ -144,6 +144,10 @@ img {
   margin: auto;
 }
 
+img:hover {
+  box-shadow: rgb(88, 24, 131);
+}
+
 #lightbox {
   position: fixed;
   z-index: 2000;
