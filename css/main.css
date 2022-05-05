@@ -46,33 +46,6 @@ h2 {
   margin-left: .4rem;
 }
 
-h3 {
-  font-size: 20pt;
-  font-family: bahnschrift;
-}
-
-h4 {
-  font-size: 14pt;
-  font-family: bahnschrift;
-  line-height: 1;
-  margin-top: .1rem;
-  margin-left: .4rem;
-  display: inline-block;
-  position: relative;
-}
-
-h5 {
-  font-size: 13pt;
-  font-family: bahnschrift;
-  font-weight: 500px;
-  text-transform: uppercase;
-  font-weight: lighter;
-  line-height: .5rem;
-  margin-left: .4rem;
-  display: inline-block;
-  position: relative;
-}
-
 nav {
   display: flex;
   background-color: rgb(88, 24, 131);
@@ -126,13 +99,36 @@ nav {
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: 17pt;
   font-family: bahnschrift;
   font-weight: 500px;
   text-transform: uppercase;
   font-weight: bolder;
   line-height: 1.8;
-  margin-left: .4rem;
+  margin-left: .1rem;
+}
+
+h4 {
+  font-size: 14pt;
+  font-family: bahnschrift;
+  line-height: 1;
+  margin-top: 0rem;
+  margin-left: .1rem;
+  display: inline-block;
+  position: relative;
+}
+
+h5 {
+  font-size: 13pt;
+  font-family: bahnschrift;
+  font-weight: 500px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  line-height: 0rem;
+  margin-left: .2rem;
+  display: inline-block;
+  position: relative;
+  margin-left: .2rem;
 }
 
 p {
